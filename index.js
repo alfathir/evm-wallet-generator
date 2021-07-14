@@ -68,4 +68,5 @@ opt.amount = rl.questionInt(
 opt.filename = rl.question(
   "[?] Masukkan nama file jika result akan disimpan di file xlsx : "
 );
+console.log(`\n\n`);
 main(opt.amount, opt.filename);
