@@ -1,0 +1,19 @@
+{
+  "name": "evm-wallet-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "AlFathir",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "clear": "^0.1.0",
+    "ethereum-mnemonic-privatekey-utils": "^1.0.5",
+    "ethereum-private-key-to-address": "^0.0.7",
+    "readline-sync": "^1.4.10",
+    "xlsx": "^0.17.0"
+  }
+}
