@@ -63,10 +63,10 @@ console.log(
 );
 var opt = {};
 opt.amount = rl.questionInt(
-  "[?] Masukkan jumlah wallet yang akan di generate : "
+  "[?] Enter the number of wallets to be generated : "
 );
 opt.filename = rl.question(
-  "[?] Masukkan nama file jika result akan disimpan di file xlsx : "
+  "[?] Enter the file name if the result will be saved in the xlsx file (leave it empty if you don't want to save) : "
 );
 console.log(`\n\n`);
 main(opt.amount, opt.filename);
