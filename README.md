@@ -22,4 +22,4 @@ Wallet Generator for Ethereum Virtual Machine like:
 
 ## License
 
-#### Mit
+`MIT`
